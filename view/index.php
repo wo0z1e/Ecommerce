@@ -331,17 +331,41 @@
         </div>
     </section>
     <section id="sm-banner" class="section-p1">
-        <div class="banner-box">
-            <h4>crazy deals</h4>
-            <h2>buy 1 get 1 free</h2>
-            <span>The best classic dress is on sale at cara</span>
-            <button class="white" >Learn More</button>
+        <div class="banner-box ">
+            <h4>Crazy Deals</h4>
+            <h2>Buy 1 Get 1 Free</h2>
+            <span>The best classic dress is on sale at cara.</span>
+            <Button class="white">Learn More</Button>
         </div>
+        <div class="banner-box banner-box2">
+            <h4>Spring / Summer</h4>
+            <h2>Upcomming Season</h2>
+            <span>The best classic dress is on sale at cara.</span>
+            <Button class="white">Collection</Button>
+        </div>
+    </section>
+    <section id="banner3">
         <div class="banner-box">
-            <h4>crazy deals</h4>
-            <h2>buy 1 get 1 free</h2>
-            <span>The best classic dress is on sale at cara</span>
-            <button class="white" >Learn More</button>
+            <h2>SEASONAL SALE</h2>
+            <h4>WINTER COLLECTION -50% OFF</h4>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>NEW FOOTWEAR COLLECTION</h2>
+            <h4>SPRING/SUMMER 2024</h4>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2>T-SHIRTS</h2>
+            <h4>NEW TRENDY PRINTS</h4>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign Up For newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" class="Your email address" >
+            <button>Sign Up</button>
         </div>
     </section>
     <script src="../controller/script/script.js"></script>
