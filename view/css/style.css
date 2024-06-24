@@ -317,7 +317,7 @@ body {
 }
 
 #sm-banner {
-  display: flwx;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }

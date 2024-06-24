@@ -331,17 +331,17 @@
         </div>
     </section>
     <section id="sm-banner" class="section-p1">
-        <div class="banner-box " >
-            <h4>Crazy Deals</h4>
-            <h2>Buy 1 Get 1 Free</h2>
-            <span>The best classic dress is on sale at cara.</span>
-            <Button>Learn More</Button>
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button>Learn More</button>
         </div>
-        <div class="banner-box " >
-            <h4>Crazy Deals</h4>
-            <h2>Buy 1 Get 1 Free</h2>
-            <span>The best classic dress is on sale at cara.</span>
-            <Button>Learn More</Button>
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button>Learn More</button>
         </div>
     </section>
     <script src="../controller/script/script.js"></script>
