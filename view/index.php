@@ -358,16 +358,23 @@
             <h4>NEW TRENDY PRINTS</h4>
         </div>
     </section>
-    <section id="newsletter" class="section-p1">
+
+    <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
             <h4>Sign Up For newsletters</h4>
             <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
         </div>
         <div class="form">
-            <input type="text" class="Your email address" >
-            <button>Sign Up</button>
+            <input type="text" class="Your email address">
+            <button class="normal">Sign Up</button>
         </div>
     </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo.png" alt="">
+        </div>
+    </footer>
     <script src="../controller/script/script.js"></script>
 </body>
 
