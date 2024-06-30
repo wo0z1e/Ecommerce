@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -75,7 +75,7 @@
                     </div>
                     <h4>$78</h4>
                 </div>
-                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+                <a href="#"><i class="fa-solid fa-circle-plus cart"></i></a>
             </div>
             <div class="pro">
                 <img src="img/products/f2.jpg" alt="">
