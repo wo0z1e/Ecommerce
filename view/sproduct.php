@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
+    <title>Product</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,7 +14,7 @@
         <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-                <li><a  href="index.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a class="active" href="shop.php">Shop</a></li>
                 <li><a href="blog.php">Blog</a></li>
                 <li><a href="about.php">About</a></li>
@@ -23,23 +23,40 @@
             </ul>
         </div>
     </section>
-    <section id="prodetails" class="section-p1" >
+    <section id="prodetails" class="section-p1">
         <div class="single-pro-img">
-            <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
-        <div class="small-img-group">
-            <div class="small-img-col" >
-                <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">   
-            </div>
-            <div class="small-img-col" >
-                <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">   
-            </div>
-            <div class="small-img-col" >
-                <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">   
-            </div>
-            <div class="small-img-col" >
-                <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">   
+            <img src="img/products/f1.jpg" width="100%" id="MainImg" >
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/f1.jpg" width="100%" class="small-img" >
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
             </div>
         </div>
+        <div class="single-pro-details">
+            <h6>Home/T-Shirt</h6>
+            <h4>Men's Fashion T Shirt</h4>
+            <h2>$139.00</h2>
+            <select >
+                <option >Select Size</option>
+                <option >XL</option>
+                <option >XXL</option>
+                <option >Small</option>
+                <option >Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turning package.</span>
         </div>
     </section>
     <section id="newsletter" class="section-p1 section-m1">
@@ -60,15 +77,15 @@
             <p><strong>Phone :</strong>...................</p>
             <p><strong>Hours :</strong>...................</p>
             <div class="follow">
-            <h4>Follow us</h4>
-            <div class="icon">
-                <i class="fab fa-facebook-f" ></i>
-                <i class="fab fa-instagram" ></i>
-                <i class="fab fa-twitter" ></i>
-                <i class="fab fa-pinterest-p" ></i>
-                <i class="fab fa-youtube" ></i>
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
             </div>
-        </div>
         </div>
         <div class="col">
             <h4>About</h4>
@@ -95,7 +112,7 @@
             </div>
             <p>Secured Payment Getways </p>
             <img src="img/pay/pay.png" alt="">
-        </div> 
+        </div>
         <div class="copyright">
             <p>© 2021. Tech2 etc - HTML CSS Ecommerce Template</p>
         </div>
